@@ -11,7 +11,7 @@ console.log('***** Object Practice *****')
 const me = {
   firstName:"Abdi",
   lastName:"Ali",
-  hasSiblings:false,
+  hasSiblings:true,
   shoeCount:2,
   favThreeFoods:['emapanadas', 'samosas', 'ice cream']
   // TODO - add properties here
@@ -36,7 +36,8 @@ console.log(fullName);
   - Console.log your last favorite food 
 */
 
-
+console.log('first favorite food: ', me.favThreeFoods[0]);
+console.log('last favorite food: ', me.favThreeFoods[2]);
 
 /* 4. Change a property of an existing object.
   - Console.log your current shoe count.
